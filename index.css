@@ -1,0 +1,112 @@
+/* CSS :Styling */
+
+/* represents class
+#represent id*/
+.main-page{
+    margin: 20px;
+    background-color:antiquewhite;
+    color: black;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between; /*horizontaly align */
+}
+
+.profile{
+    align-items: center;        /*vertically align*/
+    margin: 20px;
+    font-size: 20px;
+}
+.profile-img{
+    border-radius: 50%;
+}
+.nav-list{
+    display: flex;
+    list-style-type: none;
+
+}
+.nav-list>li{
+    margin: 20px;
+    font-size: 20px;
+
+}
+.main-content{
+    display: flex;
+}
+.main-left{
+    width:50%;
+    padding: 50px;
+}
+.main-right{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main-right img{
+    width: 50%;
+    border-radius: 50%;
+}
+.skills,.series{
+    padding-top: 50px;
+    text-align:center;
+    background-image:linear-gradient(to right, rgb(236, 199, 131),rgb(176, 176, 244));
+   
+}
+.skills-info,.series info{
+    font-size: 22px;
+}
+.skills-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:60%;
+    margin-left: 20%;
+    padding: 25px;
+    box-shadow: 5px 5px 5px 5px rgb(128, 98, 98) ;
+    border-radius: 10px;
+    background-color:aliceblue;
+   
+
+}
+
+.skills-card-container div{
+    padding-left: 10px;
+    padding-right:10px;
+    margin: 10px;
+    border:1px solid orange;
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.orange-theme{
+    color:rgb(231, 72, 14);
+}
+.series-btn{
+    color: white;
+    background-color:rgb(227, 67, 18);
+    font-size: 20px;
+    font-family: Poppins;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius:10px ;
+    margin-bottom: 50px;
+}
+.series-videos{
+    display: flex;
+    justify-content: center;
+}
+.series-videos div iframe{
+    border-radius: 10px;
+    margin: 20px;
+    width:100%;
+}
+.series-videos div{
+    width:25%;
+    height: 25vh;
+    margin:20px;
+}
